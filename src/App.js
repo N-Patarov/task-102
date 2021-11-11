@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <motion.form 
-      animate={{ x: 100 }}
+      initial={{ x: -500 }} 
+      animate={{ x: 0 }}
       transition={{ ease: "easeOut", duration: 2 }}>
         <h1>Create An Account</h1>
         <label>
